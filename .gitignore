@@ -1,0 +1,7 @@
+build.properties
+.idea
+AntSfBulkImportTask.iml
+*.csv
+createPartnerJar.sh
+dist
+classes
