@@ -49,7 +49,7 @@ public class BulkAPIHelper {
         job.setOperation(Enum.valueOf(OperationEnum.class, operation));
         job.setContentType(ContentType.CSV);
 
-        if (operation == "upsert")
+        if (operation.compareTo("upsert") == 0)
             job.setExternalIdFieldName(externalId);
 
         job = connection.createJob(job);

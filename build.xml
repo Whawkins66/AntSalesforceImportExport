@@ -46,9 +46,10 @@
 				username="${sf.username}"
 				password="${sf.password}"
                 serverURL="${sf.serverURL}"
-                operation="insert"
-                sobjecttype="account"
-                filename="test.csv"
+                operation="upsert"
+                sobjecttype="QuickText"
+                filename="quicktext.csv"
+                externalid="Name"
                 debug="true" />
 	</target>
 </project>
